@@ -3,8 +3,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = os.getenv("API_ID", "27383453")
-API_HASH = os.getenv("API_HASH", "4c246fb0c649477cc2e79b6a178ddfaa")
+API_ID = os.getenv("API_ID", "28795512")
+API_HASH = os.getenv("API_HASH", "c17e4eb6d994c9892b8a8b6bfea4042a")
 BOT_TOKEN = os.getenv("BOT_TOKEN", "7439140731:AAHk4e5ZmzdPiRt3LJ5p7rUt1nD2xwbF2UQ")
 SUDOERS = list(map(int, os.getenv("SUDOERS", "5959548791").split()))
 MONGO_URL = os.getenv("MONGO_URL", "mongodb+srv://SHASHANK:STRANGER@shashank.uj7lold.mongodb.net/?retryWrites=true&w=majority")
